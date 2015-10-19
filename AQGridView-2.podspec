@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AQGridView-2"
-  s.version      = "1.3"
+  s.version      = "1.3.1"
   s.summary      = "A grid view for iPhone/iPad, designed to look similar to NSCollectionView. This was forked from https://github.com/mruegenberg/ios-linechart"
   s.homepage     = "https://github.com/claudiuvintila/ios-linechart"
 
@@ -10,13 +10,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/claudiuvintila/AQGridView.git", :tag => s.version }
 
-  s.platform     = :ios, null
+  s.platform     = :ios, '6'
 
-  s.source_files = 'ios-linechart/LCLegendView.{h,m}', 'ios-linechart/LCLineChartView.{h,m}', 'ios-linechart/LCInfoView.{h,m}', 'ios-linechart/LineChart.h'
+  s.source_files = 'Classes'
 
-  s.frameworks = 'CoreFoundation', 'UIKit', 'CoreGraphics'
+  s.frameworks = 'QuartzCore'
 
   s.requires_arc = true
 
-  s.dependency 'uikit-utils', '~> 0.5.1'
+  s.resources = 'Resources/*.png'
 end
