@@ -160,7 +160,7 @@
 	if ( _cellFlags.separatorEdge == value )
 		return;
 	
-	_cellFlags.separatorEdge = value;
+	_cellFlags.separatorEdge = (unsigned int)value;
 	[self setNeedsLayout];
 }
 

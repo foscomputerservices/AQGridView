@@ -128,7 +128,7 @@
 - (NSUInteger) index
 {
 	// handle case where offset is negative and would cause index to wrap
-	if ( (_offset < 0) && (abs(_offset) > _index) )
+	if ( (_offset < 0) && (labs(_offset) > _index) )
 		return ( 0 );
 	
 	return ( _index + _offset );
