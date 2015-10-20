@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.license      =  { :type => 'MIT', :file => 'BSD' }
 
-  s.author       = { "Alan Quatermain" => "jimdovey@mac.com" , "Claudiu Vintila" => "claudiu.vintila.com" }
+  s.author       = { "Alan Quatermain" => "jimdovey@mac.com" , "Claudiu Vintila" => "claudiu.vintila@gmail.com" }
 
   s.source       = { :git => "https://github.com/claudiuvintila/AQGridView.git", :tag => s.version }
 
