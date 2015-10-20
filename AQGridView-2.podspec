@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "AQGridView-2"
   s.version      = "1.3.1"
-  s.summary      = "A grid view for iPhone/iPad, designed to look similar to NSCollectionView. This was forked from https://github.com/mruegenberg/ios-linechart"
-  s.homepage     = "https://github.com/claudiuvintila/ios-linechart"
+  s.summary      = "A grid view for iPhone/iPad, designed to look similar to NSCollectionView. This was forked from https://github.com/carlospuk/AQGridView"
+  s.homepage     = "https://github.com/claudiuvintila/AQGridView"
 
   s.license      =  { :type => 'MIT', :file => 'BSD' }
 
